@@ -8,11 +8,18 @@
    text-align: center;
    padding-top: 10px;
 }
+
 .header {
-  overflow: hidden;
-  background-color: #47f7f4;
-  padding: 20px 10px;
+	overflow: hidden;
+	background-color: #47f7f4;
+	padding: 20px 10px;
 }
+
 .container{
 	text-align: center;
+}
+
+.image{
+	width: 5%;
+	height: 5%;
 }

@@ -23,13 +23,16 @@ if(!empty($_POST["nimi"]) && !empty($_POST["email"]) && !empty($_POST["paikka"])
 	<meta charset="utf-8">
 	<title>Lan-ilmoitautuminen</title>
 	<link rel="stylesheet" type="text/css" href="./css.css">
-	<link rel="icon" href="./Kuvat/logo.png">
+	<link rel="icon" href="./Kuvat/logo.jpg">
 </head>
+
+<header class="header">
+		<a class="brand" href="./index.php"  style="color: rgb(41, 163, 41); text-decoration: none"><img class="image" src="./kuvat/logo.jpg"></a>
+</header>
+
 <body>
 
-	<div class="header">
-		<a class="brand" href="./index.php"  style="color: rgb(41, 163, 41); text-decoration: none"><img src="./kuvat/logo.png" style="width: 15%"></a>
-	</div>
+	
 <div class="container">
   <form action="./index.php" method="post">
 	<h2>Anna tietosi</h2>
@@ -53,6 +56,8 @@ if(!empty($_POST["nimi"]) && !empty($_POST["email"]) && !empty($_POST["paikka"])
 	<p><input class="button" type="submit" value="Varaa paikka"></p>
 	</form>
 </div>
+</body>
+
 	<footer class="footer">
         <p>LAN</p>
     </footer>
